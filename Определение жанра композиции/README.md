@@ -35,4 +35,4 @@
 Разработать модель, позволяющую классифицировать музыкальные произведения по жанрам. Достигнуть метрики Accuracy не менее 0.4
 
 ## Используемые библиотеки
-*pandas*, *numpy*, *faiss*, *re*, *sklearn*, *catboost*, *matplotlib*
+*pandas*, *numpy*, *seaborn*, *scipy*, *sklearn*, *cv2*, *matplotlib*, *phik*, *re*, *catboost*
