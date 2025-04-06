@@ -1,8 +1,52 @@
-# Портфолио
-Решение задач по DS и ML
-| Название | Краткое описание | Используемые библиотеки | 
-| :---------------------- | :---------------------- | :---------------------- |
-| [1. Определение стоимости авто на вторичном рынке США](https://github.com/Skrebcov/Kaggle_Competitions/blob/main/Определение%20цены%20авто/определение_цены_авто_вер1.ipynb) | *Kaggle соревонвание.* Решил задачу по обучению модели предсказывать цену авто в пределах погрешности 18% MAPe. По условию соревнования было нельзя удалять данные во премя предобработки. В ходе анализа нашел способ подгрузить важные данные по API по винам автомобилей из свободных источников, что существенно улучшило показатели модели. | *pandas*, *numpy*, *phik*, *re*, *sklearn*, *catboost* |
-| [2. Матчинг товаров интернет-магазина](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Матчинг%20Товаров/Матчинг_в1.ipynb) | *Статус - разработке.* Решил задачу по нахождению максимально похожего товара с использованием FAISS. Я реализовал последовательное применение FAISS и Catboost с целью получения метрики качества выше 85% | *pandas*, *numpy*, *faiss*, *re*, *sklearn*, *catboost*, *matplotlib* |
-| [3. Бинарная классификация изображений PyTorch ResNet](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Бинарная%20классификация%20изображений%20PyTorch%20ResNet/CatsAndDogsVer3.ipynb) | Решил интересную классическую задачку с Kaggle, применяя эффективную библиотеку для аугментаций Albumentations, получил на F1 точность 98% | *pandas*, *numpy*, *seaborn*, *os*, *sklearn*, *cv2*, *matplotlib*, *albumentations*, *PIL*, *tqdm*, *torch*, *torchvision* |
-| [4. Определение музыкального жанра по цифровым данным](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Определение%20жанра%20композиции/music_classificator_ver3.ipynb) | *Kaggle соревонвание.* Решил задачу по определению жанра музыки. В ходе исследования строим модели для мультиклассовой классификации, достиг Accuracy 50% | *pandas*, *numpy*, *seaborn*, *scipy*, *sklearn*, *cv2*, *matplotlib*, *phik*, *re*, *catboost*|
+# Портфолио Data Science и Machine Learning проектов
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFB13B?style=for-the-badge&logo=catboost&logoColor=black)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Yandex Cloud](https://img.shields.io/badge/Yandex_Cloud-FC3F1D?style=for-the-badge&logo=yandex&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-5A45FF?style=for-the-badge&logo=openai&logoColor=white)
+![MLOps](https://img.shields.io/badge/MLOps-3399FF?style=for-the-badge&logoColor=white)
+![Whisper](https://img.shields.io/badge/Whisper-5A45FF?style=for-the-badge&logo=openai&logoColor=white)
+
+
+## Привет! Меня зовут Артем Скребцов
+
+Я **Python-разработчик / Data Scientist / ML engineer** с опытом работы в финансовом секторе.
+
+В этом репозитории собраны мои некоторые проекты, демонстрирующие навыки работы с данными, построения моделей машинного обучения и решения бизнес-задач.
+
+> **Примечание:** Мой основной практический опыт связан с банковской тайной из-за работы в сфере финансов, поэтому представленные здесь проекты являются творческими работами, демонстрирующими мои технические навыки и подходы к решению задач.
+
+## Проекты
+
+| № | Название | Описание | Технологии | Результат |
+| :- | :------- | :------- | :--------- | :-------- |
+| 1 | [Определение стоимости авто](https://github.com/Skrebcov/Kaggle_Competitions/blob/main/Определение%20цены%20авто/определение_цены_авто_вер1.ipynb) | *Kaggle соревнование.* Разработал модель для предсказания цены автомобилей с точностью в пределах 18% (MAPE). Обогатил исходные данные информацией по VIN-номерам из внешнего API. | pandas, numpy, phik, sklearn, catboost | MAPE: 18% |
+| 2 | [Матчинг товаров интернет-магазина](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Матчинг%20Товаров/Матчинг_в1.ipynb) | Разработал гибридное решение для поиска похожих товаров, комбинируя векторное представление (FAISS) и градиентный бустинг (CatBoost). | pandas, numpy, faiss, catboost | Accuracy: >85% |
+| 3 | [Классификация изображений (PyTorch)](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Бинарная%20классификация%20изображений%20PyTorch%20ResNet/CatsAndDogsVer3.ipynb) | Решил классическую задачу классификации изображений, применяя предобученную ResNet и аугментацию изображений с Albumentations. | PyTorch, torchvision, albumentations, PIL | F1-score: 98% |
+| 4 | [Определение музыкального жанра](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Определение%20жанра%20композиции/music_classificator_ver3.ipynb) | *Kaggle соревнование.* Разработал модель мультиклассовой классификации для определения жанра музыкальной композиции по цифровым характеристикам. | pandas, numpy, scipy, sklearn, catboost | Accuracy: 50% |
+
+## Технологический стек
+
+- **Языки и фреймворки**: Python, FastAPI, Dash, Git, Ubuntu, PySpark
+- **Машинное обучение**: scikit-learn, CatBoost, XGBoost, FAISS, optuna
+- **Глубокое обучение**: PyTorch, TensorFlow, BERT, Whisper, различные LLM-модели
+- **Данные и ETL**: pandas, numpy, scipy, Airflow, Pydantic
+- **Базы данных**: PostgreSQL, Clickhouse, MySQL
+- **Инфраструктура**: Docker, Yandex Cloud, S3
+- **Компьютерное зрение**: OpenCV, Albumentations, PIL
+- **Визуализация**: Superset, Dash/Plotly, Nice GUI, matplotlib, seaborn
+- **Корпоративные системы**: Битрикс24 (API, интеграции), RetailCRM, Mango телефония, VoxImplant
+
+## Контакты
+- LinkedIn: [Cсылка на профиль](http://linkedin.com/in/artem-skrebtsov)
+- Telegram: [Cсылка на профиль](t.me/artem3141)
+
+---
+Всегда открыт к сотрудничеству и новым интересным проектам!
