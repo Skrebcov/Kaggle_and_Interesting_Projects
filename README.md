@@ -46,8 +46,8 @@
 - **Корпоративные системы**: Битрикс24 (API, интеграции), RetailCRM, Mango телефония, VoxImplant
 
 ## Контакты
-- LinkedIn: linkedin.com/in/artem-skrebtsov
-- Telegram: t.me/artem3141
+- LinkedIn: [linkedin.com/in/artem-skrebtsov](https://linkedin.com/in/artem-skrebtsov)
+- Telegram: [@artem3141](https://t.me/artem3141)
 
 ---
 Всегда открыт к сотрудничеству и новым интересным проектам!
