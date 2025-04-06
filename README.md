@@ -27,10 +27,11 @@
 
 | № | Название | Описание | Технологии | Результат |
 | :- | :------- | :------- | :--------- | :-------- |
-| 1 | [Определение стоимости авто](https://github.com/Skrebcov/Kaggle_Competitions/blob/main/Определение%20цены%20авто/определение_цены_авто_вер1.ipynb) | *Kaggle соревнование.* Разработал модель для предсказания цены автомобилей с точностью в пределах 18% (MAPE). Обогатил исходные данные информацией по VIN-номерам из внешнего API. | pandas, numpy, phik, sklearn, catboost | MAPE: 18% |
-| 2 | [Матчинг товаров интернет-магазина](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Матчинг%20Товаров/Матчинг_в1.ipynb) | Разработал гибридное решение для поиска похожих товаров, комбинируя векторное представление (FAISS) и градиентный бустинг (CatBoost). | pandas, numpy, faiss, catboost | Accuracy: >85% |
-| 3 | [Классификация изображений (PyTorch)](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Бинарная%20классификация%20изображений%20PyTorch%20ResNet/CatsAndDogsVer3.ipynb) | Решил классическую задачу классификации изображений, применяя предобученную ResNet и аугментацию изображений с Albumentations. | PyTorch, torchvision, albumentations, PIL | F1-score: 98% |
-| 4 | [Определение музыкального жанра](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Определение%20жанра%20композиции/music_classificator_ver3.ipynb) | *Kaggle соревнование.* Разработал модель мультиклассовой классификации для определения жанра музыкальной композиции по цифровым характеристикам. | pandas, numpy, scipy, sklearn, catboost | Accuracy: 50% |
+| 1 | [Прогнозирование спроса для Ленты](https://github.com/Skrebcov/Lenta_Hakaton) | *Хакатон Ленты*. Разработал интерпретируемую модель прогнозирования спроса на товары собственного производства с учетом ценовой эластичности. Выполнил подневной прогноз на уровне ТК-SKU-День для сети магазинов. | pandas, numpy, sklearn, catboost, feature engineering, временные ряды | WAPE на уровне товар-магазин-день |
+| 2 | [Классификация изображений (PyTorch)](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Бинарная%20классификация%20изображений%20PyTorch%20ResNet/CatsAndDogsVer3.ipynb) | Решил классическую задачу классификации изображений, применяя предобученную ResNet и аугментацию изображений с Albumentations. | PyTorch, torchvision, albumentations, PIL | F1-score: 98% |
+| 3 | [Определение музыкального жанра](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Определение%20жанра%20композиции/music_classificator_ver3.ipynb) | *Kaggle соревнование.* Разработал модель мультиклассовой классификации для определения жанра музыкальной композиции по цифровым характеристикам. | pandas, numpy, scipy, sklearn, catboost | Accuracy: 50% |
+| 4 | [Определение стоимости авто](https://github.com/Skrebcov/Kaggle_Competitions/blob/main/Определение%20цены%20авто/определение_цены_авто_вер1.ipynb) | *Kaggle соревнование.* Разработал модель для предсказания цены автомобилей с точностью в пределах 18% (MAPE). Обогатил исходные данные информацией по VIN-номерам из внешнего API. | pandas, numpy, phik, sklearn, catboost | MAPE: 18% |
+| 5 | [Матчинг товаров интернет-магазина](https://github.com/Skrebcov/Kaggle_and_Interesting_Projects/blob/main/Матчинг%20Товаров/Матчинг_в1.ipynb) | Разработал гибридное решение для поиска похожих товаров, комбинируя векторное представление (FAISS) и градиентный бустинг (CatBoost). | pandas, numpy, faiss, catboost | Accuracy: >85% |
 
 ## Технологический стек
 
@@ -45,8 +46,8 @@
 - **Корпоративные системы**: Битрикс24 (API, интеграции), RetailCRM, Mango телефония, VoxImplant
 
 ## Контакты
-- LinkedIn: http://linkedin.com/in/artem-skrebtsov
-- Telegram: t.me/artem3141
+- LinkedIn: [Cсылка на профиль](http://linkedin.com/in/artem-skrebtsov)
+- Telegram: [Cсылка на профиль](t.me/artem3141)
 
 ---
 Всегда открыт к сотрудничеству и новым интересным проектам!
